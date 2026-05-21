@@ -3,7 +3,7 @@
 A full-stack lead distribution platform built with **Next.js 14**, **MongoDB Atlas**, and **Server-Sent Events**.
 
 ## Live Demo
-> Add your Vercel URL here after deployment
+>https://minileaddistrubutions.vercel.app
 
 ---
 
@@ -19,7 +19,7 @@ A full-stack lead distribution platform built with **Next.js 14**, **MongoDB Atl
 
 ```bash
 # 1. Clone
-git clone https://github.com/yourusername/prowider-lead-distribution
+git clone https://github.com/Shivampatil87/Mini_Lead_Distrubution
 cd prowider-lead-distribution
 
 # 2. Install dependencies
@@ -118,9 +118,3 @@ npm i -g vercel
 
 # Deploy
 vercel
-
-# Set environment variable in Vercel dashboard:
-# MONGODB_URI = your MongoDB Atlas connection string
-```
-
-Make sure your MongoDB Atlas cluster allows connections from `0.0.0.0/0` (all IPs) for Vercel's dynamic IPs.
